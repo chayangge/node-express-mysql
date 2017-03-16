@@ -135,11 +135,5 @@ module.exports = {
 
             });
         });
-    },
-    test: function(req, res, next) {
-        rend(res, "test.tpl");
-    },
-    index: function(req, res, next) {
-        rend(res, "index.html");
     }
 }
